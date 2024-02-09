@@ -23,9 +23,7 @@ public class AritmeticCtrl {
     public Response foo() {
 
         int result = aritmeticCalc.sumOf(3, 4);
-        ResultResource response = ResultResource.builder()
-                .result(result)
-                .build();
+        ResultResource response = new ResultResource(result);
         return Response.ok(response).build();
     }
 }
