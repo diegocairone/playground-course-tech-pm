@@ -1,4 +1,4 @@
-package com.cairone.calc;
+package com.cairone.core.calc;
 
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;

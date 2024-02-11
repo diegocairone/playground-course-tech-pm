@@ -1,4 +1,4 @@
-package com.cairone.calc;
+package com.cairone.core.calc;
 
 import lombok.Builder;
 

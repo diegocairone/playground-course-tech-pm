@@ -1,5 +1,8 @@
-package com.cairone.calc;
+package com.cairone.core.calc;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class AritmeticCalc {
 
     public Integer sumOf(int a, int b) {
