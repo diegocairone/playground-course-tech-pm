@@ -6,6 +6,10 @@ public class AritmeticCalc {
         return a + b;
     }
 
+    public Integer doubleOf(int a) {
+        return a + a;
+    }
+
     public Integer subtractionOf(int a, int b) {
         return a - b;
     }
